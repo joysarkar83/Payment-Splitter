@@ -50,5 +50,5 @@ The vision behind this project is to **demonstrate transparent and trustworthy t
 - **Development Tool:** Clarinet
 - **Wallet Integration:** Hiro Wallet
 
-**📸 Project Screenshots**
+**<h3>📸 Project Screenshots</h3>**
 ![Transaction](https://github.com/joysarkar83/Payment-Splitter/blob/main/image1.png)
