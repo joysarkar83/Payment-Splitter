@@ -1,12 +1,12 @@
 **<h1>🪙 Fixed Supply Token</h1>**
 
-**📜 Project Description**
+**<h3>📜 Project Description</h3>**
 
 This project is a **decentralized fixed supply token** built using the Clarity smart contract language and deployed on the **Stacks Blockchain**. The Fixed Supply Token (FST) implements a fungible token with a predetermined maximum supply that cannot be increased after initialization, ensuring complete supply transparency and scarcity.
 
 Unlike traditional tokens that may include minting features, this token permanently fixes the total token supply at deployment. The contract handles token initialization, secure transfers, balance tracking, and supply management — all without any centralized authority.
 
-**🔭 Project Vision**
+**<h3>🔭 Project Vision</h3>**
 
 The vision behind this project is to **demonstrate transparent and trustworthy tokenomics** on the Stacks blockchain. By creating a token with immutable supply mechanics and deterministic rules, we aim to:
 
@@ -15,7 +15,7 @@ The vision behind this project is to **demonstrate transparent and trustworthy t
 * Establish a foundation for more advanced token-based governance and utility systems.
 * Foster long-term trust through complete supply transparency and immutability.
 
-**⭐ Key Features**
+**<h3>⭐ Key Features</h3>**
 
 * ✅ **Initialize Token:** Contract owner can set the fixed supply once and mint all tokens (one-time operation).
 * 🔒 **Immutable Supply:** Total supply cannot be changed after initialization — no additional minting possible.
@@ -25,7 +25,7 @@ The vision behind this project is to **demonstrate transparent and trustworthy t
 * 💰 **Gas Efficient:** Optimized contract design for minimal transaction costs.
 * 🔐 **On-chain Logic:** Entire token logic (balances, transfers, and supply) is stored and computed on-chain.
 
-**🚀 Future Scope**
+**<h3>🚀 Future Scope</h3>**
 
 * 🧩 **Governance Integration:** Implement token-based voting mechanisms for decentralized decision making.
 * 🏦 **Staking Mechanism:** Allow token holders to stake FST tokens for rewards and network participation.
@@ -34,17 +34,17 @@ The vision behind this project is to **demonstrate transparent and trustworthy t
 * 🧪 **Cross-chain Bridge:** Develop bridge functionality for token transfers across different blockchains.
 * 🌍 **DAO Framework:** Build complete decentralized autonomous organization capabilities around the token.
 
-**Contract Details**
+**<h3>Contract Details**
 **Testnet Address:** `ST2TH3AESR6G48T2D0DKEEF7TFFC0DV3XDA9HD24A`
 
-**Token Information:**
+**<h3>Token Information:</h3>**
 - **Name:** Fixed Supply Token
 - **Symbol:** FST  
 - **Decimals:** 6
 - **Supply:** Configurable (set during initialization)
 - **Standard:** SIP-010 Compatible
 
-**🛠️ Tech Stack**
+**<h3>🛠️ Tech Stack</h3>**
 - **Blockchain:** Stacks Blockchain
 - **Language:** Clarity
 - **Development Tool:** Clarinet
