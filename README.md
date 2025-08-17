@@ -1,63 +1,56 @@
-# Fixed Supply Token
+**🪙 Fixed Supply Token**
 
-## Project Description
+**📜 Project Description**
 
-The Fixed Supply Token is a Clarity smart contract that implements a fungible token with a predetermined maximum supply that cannot be increased after initialization. Unlike traditional tokens that may have minting capabilities, this token ensures complete supply transparency and scarcity by permanently fixing the total token supply at deployment.
+This project is a **decentralized fixed supply token** built using the Clarity smart contract language and deployed on the **Stacks Blockchain**. The Fixed Supply Token (FST) implements a fungible token with a predetermined maximum supply that cannot be increased after initialization, ensuring complete supply transparency and scarcity.
 
-The contract features two core functions:
-1. **Initialize**: Sets the fixed supply and mints all tokens to the contract owner (can only be called once)
-2. **Transfer**: Enables secure token transfers between accounts with proper authorization checks
+Unlike traditional tokens that may include minting features, this token permanently fixes the total token supply at deployment. The contract handles token initialization, secure transfers, balance tracking, and supply management — all without any centralized authority.
 
-## Project Vision
+**🔭 Project Vision**
 
-Our vision is to create a transparent and trustworthy token ecosystem where users can have complete confidence in the token's scarcity and supply mechanics. By eliminating the possibility of additional token minting after initialization, we ensure that the economic properties of the token remain predictable and immutable, fostering trust and long-term value preservation.
+The vision behind this project is to **demonstrate transparent and trustworthy tokenomics** on the Stacks blockchain. By creating a token with immutable supply mechanics and deterministic rules, we aim to:
 
-## Future Scope
+* Showcase the potential of Clarity smart contracts for creating reliable financial instruments.
+* Encourage developers to explore predictable token economics in DeFi applications.
+* Establish a foundation for more advanced token-based governance and utility systems.
+* Foster long-term trust through complete supply transparency and immutability.
 
-### Phase 1 (Current)
-- ✅ Fixed supply token implementation
-- ✅ Secure transfer functionality
-- ✅ Complete supply transparency
+**⭐ Key Features**
 
-### Phase 2 (Planned)
-- **Governance Integration**: Implement voting mechanisms using token holdings
-- **Staking Mechanism**: Allow token holders to stake tokens for rewards
-- **Multi-signature Support**: Add multi-sig functionality for enhanced security
-- **Batch Operations**: Enable bulk transfer operations for efficiency
+* ✅ **Initialize Token:** Contract owner can set the fixed supply once and mint all tokens (one-time operation).
+* 🔒 **Immutable Supply:** Total supply cannot be changed after initialization — no additional minting possible.
+* 🔄 **Secure Transfers:** Players can transfer tokens between accounts with proper authorization checks.
+* 🛡️ **Access Control:** Strong validation ensures only authorized users can transfer their tokens.
+* 📊 **Balance Tracking:** Real-time balance queries and total supply verification available to all users.
+* 💰 **Gas Efficient:** Optimized contract design for minimal transaction costs.
+* 🔐 **On-chain Logic:** Entire token logic (balances, transfers, and supply) is stored and computed on-chain.
 
-### Phase 3 (Future)
-- **Cross-chain Bridge**: Enable token transfers across different blockchain networks
-- **DeFi Integration**: Integrate with decentralized exchanges and liquidity pools
-- **Token Utility Expansion**: Develop use cases within broader ecosystem applications
-- **Advanced Analytics**: Implement detailed token metrics and holder analytics
+**🚀 Future Scope**
 
-### Phase 4 (Long-term)
-- **DAO Governance**: Full decentralized autonomous organization capabilities
-- **Yield Farming**: Automated yield generation mechanisms
-- **NFT Integration**: Combine with non-fungible token functionalities
-- **Enterprise Solutions**: Business-grade token management tools
+* 🧩 **Governance Integration:** Implement token-based voting mechanisms for decentralized decision making.
+* 🏦 **Staking Mechanism:** Allow token holders to stake FST tokens for rewards and network participation.
+* 🪙 **DeFi Integration:** Enable trading on decentralized exchanges and liquidity pool participation.
+* 👥 **Multi-signature Support:** Add multi-sig functionality for enhanced security in large transfers.
+* 🧪 **Cross-chain Bridge:** Develop bridge functionality for token transfers across different blockchains.
+* 🌍 **DAO Framework:** Build complete decentralized autonomous organization capabilities around the token.
 
-## Contract Address
+**Contract Details**
 
-**Mainnet**: "SP2TH3AESR6G48T2D0DKEEF7TFFC0DV3XD93M5T4P"  
-**Testnet**: "ST2TH3AESR6G48T2D0DKEEF7TFFC0DV3XDA9HD24A"
+**Mainnet Address:** `SP2TH3AESR6G48T2D0DKEEF7TFFC0DV3XD93M5T4P`
+**Testnet Address:** `ST2TH3AESR6G48T2D0DKEEF7TFFC0DV3XDA9HD24A`
 
-### Deployment Information
-- **Network**: Stacks Blockchain
-- **Language**: Clarity
-- **Token Standard**: SIP-010 Compatible
-- **Initial Supply**: Configurable (set during initialization)
-- **Decimals**: 6
-- **Symbol**: FST
-- **Name**: Fixed Supply Token
+**Token Information:**
+- **Name:** Fixed Supply Token
+- **Symbol:** FST  
+- **Decimals:** 6
+- **Supply:** Configurable (set during initialization)
+- **Standard:** SIP-010 Compatible
 
-### Key Features
-- 🔒 **Immutable Supply**: Total supply cannot be changed after initialization
-- 🛡️ **Security First**: Comprehensive access controls and validation
-- 📊 **Full Transparency**: All token metrics are publicly readable
-- ⚡ **Gas Efficient**: Optimized for low transaction costs
-- 🎯 **Single Purpose**: Focused implementation without unnecessary complexity
+**🛠️ Tech Stack**
+- **Blockchain:** Stacks Blockchain
+- **Language:** Clarity
+- **Development Tool:** Clarinet
+- **Wallet Integration:** Hiro Wallet
 
----
-
-*For technical support or questions, please refer to the contract documentation or create an issue in the project repository.*
+**📸 Project Screenshots**
+![Transaction](image.png)
