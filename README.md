@@ -1,54 +1,57 @@
-**<h1>🪙 Fixed Supply Token</h1>**
+**<h1>💰 Payment Splitter</h1>**
 
 **<h3>📜 Project Description</h3>**
 
-This project is a **decentralized fixed supply token** built using the Clarity smart contract language and deployed on the **Stacks Blockchain**. The Fixed Supply Token (FST) implements a fungible token with a predetermined maximum supply that cannot be increased after initialization, ensuring complete supply transparency and scarcity.
+This project is a **decentralized payment distribution system** built using the Clarity smart contract language and deployed on the **Stacks Blockchain**. The Payment Splitter automatically divides incoming STX payments between multiple predefined addresses based on their assigned shares, ensuring transparent and proportional fund distribution.
 
-Unlike traditional tokens that may include minting features, this token permanently fixes the total token supply at deployment. The contract handles token initialization, secure transfers, balance tracking, and supply management — all without any centralized authority.
+Unlike manual payment splitting that requires multiple transactions and is prone to human error, this smart contract handles everything automatically. The contract manages recipient configuration, payment reception, proportional calculations, and secure fund distribution — all without any centralized authority or manual intervention.
 
 **<h3>🔭 Project Vision</h3>**
 
-The vision behind this project is to **demonstrate transparent and trustworthy tokenomics** on the Stacks blockchain. By creating a token with immutable supply mechanics and deterministic rules, we aim to:
-
-* Showcase the potential of Clarity smart contracts for creating reliable financial instruments.
-* Encourage developers to explore predictable token economics in DeFi applications.
-* Establish a foundation for more advanced token-based governance and utility systems.
-* Foster long-term trust through complete supply transparency and immutability.
+The vision behind this project is to **create a trustless and efficient payment distribution system** on the Stacks blockchain. By automating payment splits with transparent on-chain logic, we aim to:
+* Eliminate manual errors and disputes in payment distribution processes.
+* Provide complete transparency for all payment splits and recipient allocations.
+* Enable instant and automatic fund distribution for businesses, DAOs, and content creators.
+* Foster trust through immutable smart contract logic and verifiable transactions.
 
 **<h3>⭐ Key Features</h3>**
 
-* ✅ **Initialize Token:** Contract owner can set the fixed supply once and mint all tokens (one-time operation).
-* 🔒 **Immutable Supply:** Total supply cannot be changed after initialization — no additional minting possible.
-* 🔄 **Secure Transfers:** Players can transfer tokens between accounts with proper authorization checks.
-* 🛡️ **Access Control:** Strong validation ensures only authorized users can transfer their tokens.
-* 📊 **Balance Tracking:** Real-time balance queries and total supply verification available to all users.
-* 💰 **Gas Efficient:** Optimized contract design for minimal transaction costs.
-* 🔐 **On-chain Logic:** Entire token logic (balances, transfers, and supply) is stored and computed on-chain.
+* ✅ **Configure Recipients:** Contract owner can set up multiple recipients with their respective share percentages.
+* 💸 **Automatic Payment Reception:** Incoming payments are securely received and held by the contract.
+* 🔄 **Withdrawal System:** Recipients can claim their accumulated shares at any time through secure withdrawal mechanism.
+* 🛡️ **Access Control:** Strong validation ensures only the contract owner can modify recipient configurations.
+* 📊 **Balance Tracking:** Real-time tracking of total payments received and individual recipient shares.
+* 💰 **Gas Efficient:** Optimized contract design using withdrawal pattern to minimize transaction costs.
+* 🔐 **On-chain Logic:** Entire payment splitting logic is stored and computed transparently on-chain.
 
 **<h3>🚀 Future Scope</h3>**
 
-* 🧩 **Governance Integration:** Implement token-based voting mechanisms for decentralized decision making.
-* 🏦 **Staking Mechanism:** Allow token holders to stake FST tokens for rewards and network participation.
-* 🪙 **DeFi Integration:** Enable trading on decentralized exchanges and liquidity pool participation.
-* 👥 **Multi-signature Support:** Add multi-sig functionality for enhanced security in large transfers.
-* 🧪 **Cross-chain Bridge:** Develop bridge functionality for token transfers across different blockchains.
-* 🌍 **DAO Framework:** Build complete decentralized autonomous organization capabilities around the token.
+* 🪙 **Multi-Token Support:** Extend beyond STX to support SIP-010 fungible tokens and other digital assets.
+* ⏰ **Time-based Splits:** Configure different split ratios for different time periods or milestones.
+* 🎯 **Conditional Distributions:** Smart conditions based on external data, achievements, or performance metrics.
+* 👥 **Multi-level Splitting:** Support hierarchical payment structures (company → departments → individuals).
+* 🏛️ **Governance Features:** Voting mechanisms for recipients to propose and approve split ratio changes.
+* 🌐 **Cross-chain Integration:** Bridge functionality for multi-blockchain payment distribution operations.
 
-**<h3>Contract Details**
-**Testnet Address:** `ST2TH3AESR6G48T2D0DKEEF7TFFC0DV3XDA9HD24A`
+**<h3>Contract Details</h3>**
+**Testnet Address:** `ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.payment-splitter`
 
-**<h3>Token Information:</h3>**
-- **Name:** Fixed Supply Token
-- **Symbol:** FST  
-- **Decimals:** 6
-- **Supply:** Configurable (set during initialization)
-- **Standard:** SIP-010 Compatible
+**<h3>Contract Functions:</h3>**
+
+- **setup-payment-split:** Configure recipients and their shares (owner only)
+- **split-payment:** Receive and hold payments for proportional distribution
+- **withdraw-share:** Allow recipients to claim their proportional shares
+- **get-recipient-shares:** Check individual recipient share allocation
+- **get-total-shares:** View total configured shares
+- **get-contract-balance:** Check total funds available for withdrawal
 
 **<h3>🛠️ Tech Stack</h3>**
+
 - **Blockchain:** Stacks Blockchain
 - **Language:** Clarity
 - **Development Tool:** Clarinet
-- **Wallet Integration:** Hiro Wallet
+- **Wallet Integration:** Leather Wallet, Xverse
 
 **<h3>📸 Project Screenshots</h3>**
-![Transaction](https://github.com/joysarkar83/Payment-Splitter/blob/main/image1.png)
+
+![Contract Deployment](https://github.com/joysarkar83/Payment-Splitter/blob/main/image1.png)
