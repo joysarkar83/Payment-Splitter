@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: PaymentSplitter
+            expected-sender: ST2TH3AESR6G48T2D0DKEEF7TFFC0DV3XDA9HD24A
+            cost: 27130
+            path: "contracts\\PaymentSplitter.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"

@@ -1,0 +1,15 @@
+#V2
+cd PaymentSplitter
+./clarinet console
+clarinet --version
+clarinet devnet start
+(contract-call? .payment-splitter get-total-shares)
+::quit
+ls
+ls contracts/
+dir
+cd
+ls
+exit
+stx make_keychain -t
+exit
