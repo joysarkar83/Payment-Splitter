@@ -1,4 +1,4 @@
-**🪙 Fixed Supply Token**
+**<h1>🪙 Fixed Supply Token</h1>**
 
 **📜 Project Description**
 
@@ -35,8 +35,6 @@ The vision behind this project is to **demonstrate transparent and trustworthy t
 * 🌍 **DAO Framework:** Build complete decentralized autonomous organization capabilities around the token.
 
 **Contract Details**
-
-**Mainnet Address:** `SP2TH3AESR6G48T2D0DKEEF7TFFC0DV3XD93M5T4P`
 **Testnet Address:** `ST2TH3AESR6G48T2D0DKEEF7TFFC0DV3XDA9HD24A`
 
 **Token Information:**
